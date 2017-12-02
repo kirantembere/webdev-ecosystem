@@ -1,0 +1,14 @@
+{
+  "name": "webdev-ecosystem",
+  "version": "1.0.0",
+  "description": "This is my learning project on how to build web development ecosystem using modern programming languages. This is mainly target for beginners and intermediate level. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
+}
