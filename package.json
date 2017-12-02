@@ -4,14 +4,20 @@
   "description": "This is my learning project on how to build web development ecosystem using modern programming languages. This is mainly target for beginners and intermediate level. ",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"node server.js\"",
+    "start": "concurrently \"node server.js\" \"grunt ts\"  \"grunt eslint\"",
     "security-check": "nsp check"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.1",
+    "eslint": "^4.12.1",
     "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.1.0",
+    "grunt-ts": "^6.0.0-beta.17",
     "typescript": "^2.6.2"
   }
 }
