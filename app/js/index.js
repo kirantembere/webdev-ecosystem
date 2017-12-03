@@ -1,2 +1,2 @@
-var title = "Typescript1";
+var title = "ts";
 //# sourceMappingURL=index.js.map

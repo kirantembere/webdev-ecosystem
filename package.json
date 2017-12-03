@@ -4,7 +4,7 @@
   "description": "This is my learning project on how to build web development ecosystem using modern programming languages. This is mainly target for beginners and intermediate level. ",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"node server.js\" \"grunt ts\"  \"grunt eslint\"",
+    "start": "concurrently \"node server.js\" \"grunt ts\"  \"grunt eslint\" \"webpack --watch\" \"webpack-dev-server --inline\"",
     "security-check": "nsp check"
   },
   "author": "",

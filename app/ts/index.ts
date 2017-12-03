@@ -1,1 +1,1 @@
-let title = "Typescript1"
+let title = "ts"
