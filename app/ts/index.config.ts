@@ -1,1 +1,4 @@
-let config : string = "this is my config file."
+export namespace Shapes {
+  export class Triangle { /* ... */ }
+
+}
