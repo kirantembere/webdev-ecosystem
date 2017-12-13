@@ -1,2 +1,2 @@
-import * as shapes from "./index.config";
-let t = new shapes.Shapes.Triangle(); // shapes.Shapes?
+import hello from "./index.config";
+let s = hello + "world";

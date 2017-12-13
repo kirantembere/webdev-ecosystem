@@ -1,4 +1,3 @@
-export namespace Shapes {
-  export class Triangle { /* ... */ }
+let hello = "Hello!";
 
-}
+export default hello;
